@@ -1,0 +1,8 @@
+A company is considering a number of locations for building warehouses to supply its existing stores. 
+Each possible warehouse has a fixed maintenance cost and a maximum capacity specifying how many stores it can support. 
+Each store can be supplied by only one warehouse and the supply cost to the store differs according to the warehouse selected. 
+The application consists of choosing which warehouses to build and which of them should supply the various stores in order to minimize the total cost, which is the sum of the fixed costs and the supply costs. 
+
+
+The model instance used in this section considers 50 warehouses and 200 stores. 
+The fixed costs for the warehouses are all identical and equal to 10. 

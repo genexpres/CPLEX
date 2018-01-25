@@ -1,0 +1,25 @@
+The nurses example
+
+The nurses example describes a nurse scheduling problem: the hospital Human Resources department needs to create work schedules for nurses and nurse teams. A good schedule is an optimal one, that is, a schedule that meets as many of the hospital's overall goals as possible. If some of these goals prove incompatible, then the solution consists in nevertheless finding a schedule that will work out, in other words, a feasible schedule. The goals include:
+
+•staffing each hospital department with the proper number of nurses at all times
+
+
+•matching a nurse's skills, such as a Board Certification in Cardiac Care, with the requirements of the department
+
+
+•establishing a minimum and maximum number of hours worked per week.
+
+Maximizing fairness in how nurses are allocated to shifts, that is, making sure that no nurses are scheduled for 50 hours a week when others are scheduled for only 25 hours.
+
+
+•incorporating best practice guidelines, such as trying to schedule nurses with compatible skills or with a proven history of working well together on the same team
+
+
+•taking into account individual nurse preferences for days off as much as possible
+
+
+•keeping salary costs to a reasonable level
+
+
+Sometimes, several of these goals will conflict, for example, during a week when many nurses are on vacation. In such a case, the solving engine finds no solution. As this is not acceptable because a hospital needs a nurse schedule, you have to make choices, prioritize the goals, and relax some constraints accordingly. You will see in this tutorial how the IDE guides you through this task.

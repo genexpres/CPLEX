@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="myfirstproject.mod" type="model">
+			</ref>
+			<ref name="myfirstproject.ops" type="setting">
+			</ref>
+			<ref name="product.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="Barrier" category="opl">
+			<ref name="myfirstproject.mod" type="model">
+			</ref>
+			<ref name="newsettings.ops" type="setting">
+			</ref>
+			<ref name="product.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
